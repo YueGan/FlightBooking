@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="b07.flightbooking.ViewFlightPage" >
+     
+     <TextView
+         android:id="@+id/showTime"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="188dp"
+        android:onClick="search"
+        android:text="@string/search_flight" />
+
+    <EditText
+        android:id="@+id/destinationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showTime"
+        android:layout_toRightOf="@+id/showTime"
+        android:ems="10"
+        android:hint="@string/destination" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/originText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/showTime"
+        android:layout_below="@+id/destinationText"
+        android:ems="10" 
+        android:hint="@string/origin"/>
+
+    <EditText
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/destinationText"
+        android:layout_below="@+id/originText"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="@string/date_format" />
+ 
+</RelativeLayout>

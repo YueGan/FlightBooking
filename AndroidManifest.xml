@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="b07.flightbooking"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ClientHomePage"
+            android:label="@string/title_activity_client_home_page" >
+        </activity>
+        <activity
+            android:name=".AdminHomePage"
+            android:label="@string/title_activity_admin_home_page" >
+        </activity>
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".ViewFlightPage"
+            android:label="@string/title_activity_view_flight_page" >
+        </activity>
+        <activity
+            android:name=".BookFlightPage"
+            android:label="@string/title_activity_book_flight_page" >
+        </activity>
+        <activity
+            android:name=".BookItineraryPAge"
+            android:label="@string/title_activity_book_itinerary_page" >
+        </activity>
+        <activity
+            android:name=".EditFlightPage"
+            android:label="@string/title_activity_edit_flight_page" >
+        </activity>
+        <activity
+            android:name=".BookItineraryPage"
+            android:label="@string/title_activity_book_itinerary_page" >
+        </activity>
+        <activity
+            android:name=".UploadClientInfo"
+            android:label="@string/title_activity_upload_client_info" >
+        </activity>
+        <activity
+            android:name=".UploadFlightInfo"
+            android:label="@string/title_activity_upload_flight_info" >
+        </activity>
+        <activity
+            android:name=".DisplayFlights"
+            android:label="@string/title_activity_display_flights" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flight Booking</string>
+    <string name="welcome">Enter Login Info</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_admin_home_page">AdminHomePage</string>
+    <string name="title_activity_client_home_page">ClientHomePage</string>
+    <string name="logout">Logout</string>
+    <string name="view_personal_info">View Personal Info</string>
+    <string name="edit_personal_info">Edit Personal Info</string>
+    <string name="search_flight">Search Flight</string>
+    <string name="title_activity_test">Test</string>
+    <string name="search_iti">Search Itinerary</string>
+    <string name="title_activity_view_flight_page">ViewFlightPage</string>
+    <string name="title_activity_book_flight_page">BookFlightPage</string>
+    <string name="title_activity_book_itinerary_page">BookItineraryPAge</string>
+    <string name="title_activity_edit_flight_page">EditFlightPage</string>
+    <string name="destination">Destination</string>
+    <string name="title_activity_display_client_info">Client Information</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First_Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="credit_card_info">CreditCardNumber</string>
+    <string name="expiry_date">ExpiryDate</string>
+    <string name="client_info"></string>
+    <string name="title_activity_edit_client_info">Edit Client Information</string>
+    <string name="edit_client_info"></string>
+    <string name="back">Back</string>
+    <string name="origin">Origin</string>
+    <string name="date_format">yyyy-mm-dd</string>
+    <string name="title_activity_upload_client_info">UploadClientInfo</string>
+    <string name="enter_client_file_path">Enter the csv file path to upload clients:</string>
+    <string name="enter_flight_file_path">Enter the csv file path to upload flights:</string>
+    <string name="upload">Upload</string>
+    <string name="path">path/</string>
+    <string name="upload_flight">Upload Flight</string>
+    <string name="upload_client">Upload Client</string>
+    <string name="title_activity_upload_flight_info">UploadFlightInfo</string>
+    <string name="title_activity_display_flights">DisplayFlights</string>
+
+</resources>
